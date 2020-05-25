@@ -1,22 +1,20 @@
-# MyCompany
+# My Company
 
-This project was generated using [Nx](https://nx.dev).
+Eeste proyecto fue generado con [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="450"></p>
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+## Agregar Plugins al Espacio de Trabajo
 
-## Adding capabilities to your workspace
+Nx tiene varios plugins para desarrollar diferentes tipos de aplicaciones y herramientas.
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+Estos plugins permiten generar applicaciones, librerías, así como las herramientas para correr pruebas unitarias, de e2e y hacer el "build" de las aplicaciones.
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are some plugins which you can add to your workspace:
+Plugins que puede agregar a su espacio de trabajo:
 
 - [React](https://reactjs.org)
   - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
+- Web (Sin framework de frontend)
   - `npm install --save-dev @nrwl/web`
 - [Angular](https://angular.io)
   - `npm install --save-dev @nrwl/angular`
@@ -27,50 +25,50 @@ Below are some plugins which you can add to your workspace:
 - [Node](https://nodejs.org)
   - `npm install --save-dev @nrwl/node`
 
-## Generate an application
+## Generar una Aaplicación
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
+Correr el comando `nx g @nrwl/react:app my-app` para generar una aplicación.
 
-> You can use any of the plugins above to generate applications as well.
+> También puedes usar cualquiera de los plugins que se encuentran arriba para generar aplicaciones.
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+Cuando usas Nx, puedes crear múltiples aplicaciones y librerías en el mismo espacio de trabajo.
 
-## Generate a library
+## Generate una Libraría
 
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
+Correr el comando `nx g @nrwl/react:lib my-lib` para generar una librería.
 
-> You can also use any of the plugins above to generate libraries as well.
+> También puedes usar cualquiera de los plugins que se encuentran arriba para generar librerías.
 
-Libraries are sharable across libraries and applications. They can be imported from `@my-company/mylib`.
+Las librerías se comparten a través de las aplicaciones. Se pueden importar de `@my-company/mylib`.
 
-## Development server
+## Servideor de Desarrollo
 
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Correr el comando `nx serve my-app` para iniciar el servidor de desarrollo. Navega a http://localhost:4200/. La aplicación se recarga automáticamente si cambian los archivos fuente.
 
-## Code scaffolding
+## Comandos de Nx
 
-Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
+Correr `nx g @nrwl/react:component my-component --project=my-app` para generar un nuevo componente.
 
 ## Build
 
-Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Correr `nx build my-app` para hacer el build del proyectuo. El build de la aplicación se guarda en el directorio `dist/`. Usar la bandera `--prod` para generar un build productivo.
 
-## Running unit tests
+## Pruebas unitarias
 
-Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+Correr `nx test my-app` para ejecutar pruebas unitarias via [Jest](https://jestjs.io).
 
-Run `nx affected:test` to execute the unit tests affected by a change.
+Correr `nx affected:test` para ejecutar las pruebas unitarias afectadas por algún cambio.
 
-## Running end-to-end tests
+## Pruebas de end-to-end
 
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+Correr `ng e2e my-app` para ejecutar las pruebas de end-to-end via [Cypress](https://www.cypress.io).
 
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+Correr `nx affected:e2e` para ejecutar las pruebas de end-to-end afectadas por algún cambio.
 
-## Understand your workspace
+## Entendiendo el Espacio de Trabajo your workspace
 
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
+Correr `nx dep-graph` para ver el diagrama de dependencias de los proyectos.
 
-## Further help
+## Más Información
 
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+Visite la [Documentaión de Nx](https://nx.dev) para conocer más.
