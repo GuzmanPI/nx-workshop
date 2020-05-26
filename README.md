@@ -1,4 +1,4 @@
-# My Company
+# My Company Monorepo
 
 Eeste proyecto fue generado con [Nx](https://nx.dev).
 
