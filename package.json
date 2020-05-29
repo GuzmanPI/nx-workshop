@@ -1,7 +1,8 @@
 {
   "name": "my-company",
   "version": "0.0.0",
-  "license": "MIT",
+  "author": "Israel Guzman - Angular Mastery ©",
+  "license": "GNU General Public License v3.0",
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
