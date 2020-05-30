@@ -20,11 +20,12 @@
   },
   "projects": {
     "admin": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["api"]
     },
     "admin-e2e": {
-      "tags": [],
-      "implicitDependencies": ["admin"]
+      "tags": []
+      //      "implicitDependencies": ["admin"]
     },
     "ui": {
       "tags": []
