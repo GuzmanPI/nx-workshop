@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyServiceService } from './my-service.service';
 
 @Component({
   selector: 'my-company-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Bienvenid@ al workshop!';
+  constructor(private service: MyServiceService) {}
+  greet$ = this.service.greeting$;
 }
