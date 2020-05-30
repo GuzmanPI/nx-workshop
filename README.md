@@ -2,7 +2,7 @@
   <a href="https://nx.dev/" target="blank"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="180" alt="Nx" /></a>
 </p>
   
-<p align="center"><b>Angular Bogotá:</b> Workshop de Nx - Nx Monorepo</p>
+<p align="center"><b>Angular Bogotá:</b> Workshop de Nx - My Company's Monorepo</p>
 <p align="center">Por <b>Israel Guzmán -</b> Cheers 🍻</p>
 <p align="center">Sígueme en:</p>
 <p align="center">
