@@ -11,6 +11,6 @@ export class MyServiceService {
   constructor(private httpClient: HttpClient) {}
 
   greeting$: Observable<string> = this.httpClient
-    .get<any>(`${environment.api}/api`)
+    .get<any>(`${environment.api}`)
     .pipe(map((response) => response.message));
 }
